@@ -48,7 +48,6 @@ def process(source: str, output_file: str, conf_threshold: float = 0.2):
         results = model(frame, conf=conf_threshold, verbose=False)[0]
         detections = sv.Detections.from_ultralytics(results)
 
-        # Annotate
         annotated_frame = bounding_box_annotator.annotate(scene=frame, detections=detections)
         annotated_frame = label_annotator.annotate(scene=annotated_frame, detections=detections)
 

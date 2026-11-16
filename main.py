@@ -76,3 +76,6 @@ def webcam(
 
 if __name__ == "__main__":
     app()
+
+
+# OBS: Comando para testar no VS Code: python testar_cameras.py (testa a webcam); python main.py --source "nome do vídeo.mp4" --output-file "gravar_tela.mp4" (grava a transmissão)

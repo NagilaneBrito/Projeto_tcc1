@@ -1,7 +1,7 @@
 
 import cv2
 
-numero = 0  # Começa testando a câmera 0
+numero = 0  
 
 camera = cv2.VideoCapture(numero)
 

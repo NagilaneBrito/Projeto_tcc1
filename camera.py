@@ -139,3 +139,6 @@ def webcam(
 
 if __name__ == "__main__":
     app()
+
+
+# OBS: Comando para testar no VS Code:python camera.py --source "rtsp://USUARIO:SENHA@IP(IP da Câmera):554/cam/realmonitor?channel=1&subtype=1" --output-file "gravacao_camera.mp4"

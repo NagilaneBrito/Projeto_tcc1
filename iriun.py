@@ -24,3 +24,6 @@ else:
 
 camera.release()
 cv2.destroyAllWindows()
+
+
+# OBS: Comando para testar no VS Code: python main.py --source 4 --output-file "gravacao_iriun.mp4"
